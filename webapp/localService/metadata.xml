@@ -850,30 +850,6 @@
                </Record>
             </Annotation>
          </Annotations>
-         <Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="STTA_SALES_ORDER_WD_20_SRV.C_STTA_SalesOrderItemSL_WD_20Type">
-            <Annotation Term="Common.SemanticKey">
-               <Collection>
-                  <PropertyPath>ScheduleLine</PropertyPath>
-                  <PropertyPath>SalesOrderItem</PropertyPath>
-                  <PropertyPath>SalesOrder</PropertyPath>
-               </Collection>
-            </Annotation>
-         </Annotations>
-         <Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="STTA_SALES_ORDER_WD_20_SRV.C_STTA_SalesOrderItem_WD_20Type">
-            <Annotation Term="Common.SemanticKey">
-               <Collection>
-                  <PropertyPath>SalesOrderItem</PropertyPath>
-                  <PropertyPath>SalesOrder</PropertyPath>
-               </Collection>
-            </Annotation>
-         </Annotations>
-         <Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="STTA_SALES_ORDER_WD_20_SRV.C_STTA_SalesOrder_WD_20Type">
-            <Annotation Term="Common.SemanticKey">
-               <Collection>
-                  <PropertyPath>SalesOrder</PropertyPath>
-               </Collection>
-            </Annotation>
-         </Annotations>
          <atom:link
                  xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="./sap/STTA_SALES_ORDER_WD_20_SRV/$metadata"/>
          <atom:link
