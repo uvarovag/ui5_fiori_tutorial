@@ -770,42 +770,6 @@
                </Record>
             </Annotation>
          </Annotations>
-         <Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrder_WD_20">
-            <Annotation Term="Common.DraftRoot">
-               <Record>
-                  <PropertyValue Property="ActivationAction" String="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrder_WD_20Activation"/>
-                  <PropertyValue Property="EditAction" String="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrder_WD_20Edit"/>
-                  <PropertyValue Property="PreparationAction" String="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrder_WD_20Preparation"/>
-                  <PropertyValue Property="ValidationFunction" String="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrder_WD_20Validation"/>
-               </Record>
-            </Annotation>
-         </Annotations>
-         <Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrderItemSL_WD_20">
-            <Annotation Term="Common.DraftNode">
-               <Record>
-                  <PropertyValue Property="PreparationAction" String="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrderItemSL_WD_20Preparation"/>
-                  <PropertyValue Property="ValidationFunction" String="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrderItemSL_WD_20Validation"/>
-               </Record>
-            </Annotation>
-            <Annotation Term="Common.DraftActivationVia">
-               <Collection>
-                  <String>STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrder_WD_20</String>
-               </Collection>
-            </Annotation>
-         </Annotations>
-         <Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrderItem_WD_20">
-            <Annotation Term="Common.DraftNode">
-               <Record>
-                  <PropertyValue Property="PreparationAction" String="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrderItem_WD_20Preparation"/>
-                  <PropertyValue Property="ValidationFunction" String="STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrderItem_WD_20Validation"/>
-               </Record>
-            </Annotation>
-            <Annotation Term="Common.DraftActivationVia">
-               <Collection>
-                  <String>STTA_SALES_ORDER_WD_20_SRV.STTA_SALES_ORDER_WD_20_SRV_Entities/C_STTA_SalesOrder_WD_20</String>
-               </Collection>
-            </Annotation>
-         </Annotations>
          <Annotations xmlns="http://docs.oasis-open.org/odata/ns/edm" Target="STTA_SALES_ORDER_WD_20_SRV.C_STTA_SalesOrder_WD_20Type/DeliveryStatus">
             <Annotation Term="Common.ValueList">
                <Record>

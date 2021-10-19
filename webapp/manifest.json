@@ -128,7 +128,7 @@
 			"extensions": {
 				"sap.ui.viewExtensions": {
 					"sap.suite.ui.generic.template.ObjectPage.view.Details": {
-						"ReplaceFacet|TestDataSet|Example_Facet": {
+						"ReplaceFacet|C_STTA_SalesOrder_WD_20|Example_Facet": {
 							"type": "XML",
 							"className": "sap.ui.core.mvc.View",
 							"viewName": "z.fiori.tutorial.ext.view.Example"
@@ -142,8 +142,8 @@
 					"sap.suite.ui.generic.template.ObjectPage.view.Details": {
 						"controllerName": "z.fiori.tutorial.ext.controller.ObjectPageExt",
 						"sap.ui.generic.app": {
-							"TestDataSet": {
-								"EntitySet": "TestDataSet",
+							"C_STTA_SalesOrder_WD_20": {
+								"EntitySet": "C_STTA_SalesOrder_WD_20",
 								"Header": {
 									"Actions": {}
 								}
@@ -166,8 +166,8 @@
 			"forceGlobalRefresh": false
 		},
 		"pages": {
-			"ListReport|TestDataSet": {
-				"entitySet": "TestDataSet",
+			"ListReport|C_STTA_SalesOrder_WD_20": {
+				"entitySet": "C_STTA_SalesOrder_WD_20",
 				"component": {
 					"name": "sap.suite.ui.generic.template.ListReport",
 					"list": true,
@@ -178,8 +178,8 @@
 					}
 				},
 				"pages": {
-					"ObjectPage|TestDataSet": {
-						"entitySet": "TestDataSet",
+					"ObjectPage|C_STTA_SalesOrder_WD_20": {
+						"entitySet": "C_STTA_SalesOrder_WD_20",
 						"component": {
 							"name": "sap.suite.ui.generic.template.ObjectPage",
 							"settings": {}

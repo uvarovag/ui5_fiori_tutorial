@@ -1,60 +1,20 @@
-<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
-	<edmx:Reference Uri="/sap/opu/odata/SAP/CUSTOM_DATA_SRV/$metadata">
-		<edmx:Include Alias="Metadata" Namespace="CUSTOM_DATA_SRV"/>
+<edmx:Edmx
+		xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+	<edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+		<edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
 	</edmx:Reference>
-	<edmx:Reference Uri="https://wiki.scn.sap.com/wiki/download/attachments/448470968/UI.xml?api=v2">
-		<edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
+	<edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_UI',Version='0001',SAP__Origin='LOCAL')/$value">
+		<edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
 	</edmx:Reference>
-	<edmx:Reference Uri="https://wiki.scn.sap.com/wiki/download/attachments/448470971/Communication.xml?api=v2">
-		<edmx:Include Alias="Communication" Namespace="com.sap.vocabularies.Communication.v1"/>
+	<edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+		<edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
 	</edmx:Reference>
-	<edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Measures.V1.xml">
-		<edmx:Include Alias="Measures" Namespace="Org.OData.Measures.V1"/>
-	</edmx:Reference>
-	<edmx:Reference Uri="https://wiki.scn.sap.com/wiki/download/attachments/448470974/Common.xml?api=v2">
-		<edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+	<edmx:Reference Uri="../../../sap/stta_sales_order_wd_20_srv/$metadata">
+		<edmx:Include Namespace="STTA_SALES_ORDER_WD_20_SRV" Alias="SAP"/>
 	</edmx:Reference>
 	<edmx:DataServices>
-		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm"
-			Namespace="annotation.CUSTOM_DATA_SRV">
-			<Annotations Target="Metadata.TestDataType">
-				<Annotation Term="UI.LineItem">
-					<Collection>
-						<Record Type="UI.DataField">
-							<PropertyValue Property="Value" Path="Guid"/>
-						</Record>
-						<Record Type="UI.DataField">
-							<PropertyValue Property="Value" Path="Date"/>
-						</Record>
-						<Record Type="UI.DataField">
-							<PropertyValue Property="Value" Path="Byte"/>
-						</Record>
-						<Record Type="UI.DataField">
-							<PropertyValue Property="Value" Path="String"/>
-						</Record>
-						<Record Type="UI.DataField">
-							<PropertyValue Property="Value" Path="Decimal"/>
-						</Record>
-						<Record Type="UI.DataField">
-							<PropertyValue Property="Value" Path="Boolean"/>
-						</Record>
-						<Record Type="UI.DataField">
-							<PropertyValue Property="Value" Path="Int16"/>
-						</Record>
-						<Record Type="UI.DataField">
-							<PropertyValue Property="Value" Path="Time"/>
-						</Record>
-					</Collection>
-				</Annotation>
-				<Annotation Term="UI.Facets">
-					<Collection>
-						<Record Type="UI.ReferenceFacet">
-							<PropertyValue Property="ID" String="Example_Facet"/>
-							<PropertyValue Property="Label" String="{@i18n&gt;labelExampleFacet}"/>
-						</Record>
-					</Collection>
-				</Annotation>
-			</Annotations>
+		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="stta_sales_order_wd_20_anno_mdl.v1">
+
 		</Schema>
 	</edmx:DataServices>
 </edmx:Edmx>
